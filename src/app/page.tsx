@@ -7,7 +7,7 @@ const blurFadeIn = {
   visible: { filter: "blur(0px)", opacity: 1, y: 0 },
 };
 
-const spring = { type: "spring", stiffness: 300, damping: 30 };
+const spring = { type: "spring", stiffness: 300, damping: 30 } as const;
 
 export default function Home() {
   return (
